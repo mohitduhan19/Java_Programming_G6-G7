@@ -1,8 +1,8 @@
 package LEC32;
 
 public class Thread_constructor {
-    static class MyThread extends Thread{
-        MyThread(String name){
+    static class MyThreads extends Thread{
+        MyThreads(String name){
             super(name);
         }
         public void run(){
@@ -10,7 +10,7 @@ public class Thread_constructor {
         }
     }
     public static void main(String[] args) {
-        MyThread t = new MyThread("john");
+        MyThreads t = new MyThreads("john");
         t.start();
     }
 }
