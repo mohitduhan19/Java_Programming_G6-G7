@@ -21,7 +21,7 @@ class Student implements Comparable<Student>{
 public class comparable {
     public static void main(String[] args) {
         Student[] students = {new Student(2 , "john") , new Student(1 , "Alice"),
-        new Student(5 ,"Kira")};
+                new Student(5 ,"Kira")};
         Arrays.sort(students);
 
         for(Student a:students){

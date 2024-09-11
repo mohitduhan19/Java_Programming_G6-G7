@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Collection_framework_Set {
+public class Collection_framework_set {
     public static void main(String[] args) {
         Set<Integer> s1 = new HashSet<>();
         s1.add(10);

@@ -6,7 +6,7 @@ public class Collection_framework {
         List<Integer> res1 = new ArrayList<>();
         //parent ref - > child obj;
 
-       // List<Integer> res2 = new List<Integer>();
+        // List<Integer> res2 = new List<Integer>();
         //interfaces cannot be instanitated
 
         List<Integer> res3 = new LinkedList<>();

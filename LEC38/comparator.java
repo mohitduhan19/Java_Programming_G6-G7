@@ -25,7 +25,7 @@ class Mycomparator implements Comparator<student>{
 public class comparator {
     public static void main(String[] args) {
         student[] students = {new student(2 , "john"),
-        new student(1 , "alice"), new student(9 , "kira")};
+                new student(1 , "alice"), new student(9 , "kira")};
 
         Arrays.sort(students , new Mycomparator());
 
